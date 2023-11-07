@@ -230,6 +230,7 @@
     font-family: sans-serif;
     cursor: pointer;
     letter-spacing: 4px;
+    text-decoration: none;
 }
 
 .contenedor-btn-description .button:hover{
