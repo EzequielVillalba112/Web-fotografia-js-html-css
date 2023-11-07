@@ -13,6 +13,8 @@ const itemContact = document.querySelector(".Contact");
 
 const itemImgMenu = document.querySelector(".img-menu");
 
+const descriptionHome = document.querySelector(".descripcion");
+const about = document.querySelector(".about")
 
 btnMenu.addEventListener("click", () =>{
    clickBtnMenu();
@@ -29,37 +31,38 @@ const clickBtnMenu = () => {
     estadoMenu = !estadoMenu;
 
     if(estadoMenu === true) {
-        btnMenu.style.display = "none";
         contendorMenu.style.display = "flex";
-        logo.style.display = "none";
     }else{
-        btnMenu.style.display = "block";
         contendorMenu.style.display = "none";
-        logo.style.display = "flex";
     }
 
 }
-
+//Home
 itemHome.addEventListener("mouseover", (e) => {
     itemImgMenu.src = "../img/foto-1.jpg"
     console.log("sobre Home");
 })
 
+//About
 itemAbout.addEventListener("mouseover", (e) => {
     itemImgMenu.src = "../img/foto-about.jpg"
     console.log("sobre About");
 })
 
+//Service
 itemServices.addEventListener("mouseover", (e) => {
     itemImgMenu.src = "../img/foto-service.jpg";
     console.log("sobre Services");
 })
 
+//Portfolio
 itemPortfolio.addEventListener("mouseover", (e) => {
     itemImgMenu.src = "../img/foto-portfolio.jpg"
     console.log("sobre Portfolio");
 })
 
+
+//Contact
 itemContact.addEventListener("mouseover", (e) => {
     itemImgMenu.src = "../img/foto-contacto.jpg"
     console.log("sobre Contact");
