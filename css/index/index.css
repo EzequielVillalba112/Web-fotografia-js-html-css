@@ -12,6 +12,9 @@
     box-sizing: border-box;
 }
 
+body{
+    background: var(--background-dark);
+}
 
 /*---------------------MENU----------------------*/
 .nav-cantainer{
@@ -254,8 +257,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: var(--background-dark);
     color: var(--color-text-dark);
+    overflow: hidden;
 }
 
 .about h1{
@@ -266,11 +269,23 @@
     font-family: sans-serif;
 }
 
+.img-about{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
 
-.about img{
+.img-about img{
     width: 100%;
     height: 500px;
     object-fit: cover;
+    transition-duration: 6s;
+    transform: scale(1.2);
+}
+
+.img-about img:hover{
+    transition-duration: 6s;
+    transform: scale(1);
 }
 
 .descripcion-about{
@@ -368,6 +383,15 @@
 .btn-download-cv:hover{
     background-color: var(--background-hover-dark);
 }
+
+
+.section-boton{
+    width: 100%;
+    height: 200px;
+    border-top: 2px solid var(--background-hover-dark);
+}
+
+
 
 @media screen and (max-width:770px){
     .descripcion .titulo-descripcion{
