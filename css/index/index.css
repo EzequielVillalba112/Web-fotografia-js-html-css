@@ -199,18 +199,20 @@ body{
     font-size: 90px;
     text-transform: uppercase;
     color: #D3D3D3;
-    text-shadow: 1px solid #000000;
+    text-shadow: 2px 2px 2px #000000;
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 .descripcion p{
     font-size: 23px;
+    line-height: 37px;
     margin-left: 50px;
     width: 590px;
     margin-top: 50px;
     color: #ffffff;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 4px 4px 4px #000000;
     font-family: Arial, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 
 .contenedor-btn-description{
@@ -465,6 +467,7 @@ body{
     object-fit: cover;
     opacity: 0.8;
     transition: 0.6s;
+    border-radius: 16px;
 }
 
 
@@ -476,6 +479,10 @@ body{
     .item-footer h2{
         font-size: 90px;
     }
+
+    .descripcion p {
+        width: 450px;
+    }
 }
 
 @media screen and (max-width:770px) {
@@ -484,8 +491,7 @@ body{
     }
 
     .descripcion p{
-        font-size: 20px;
-        width: 333px;
+        width: 100%;
     }
 
     .contenedor-btn-description{
