@@ -8,7 +8,7 @@ let estadoMenu = false;
 const itemHome = document.querySelector(".home");
 const itemAbout = document.querySelector(".About");
 const itemServices = document.querySelector(".Services");
-const itemPortfolio = document.querySelector(".Portfolio");
+const itemPortfolio = document.querySelector(".Gallery");
 const itemContact = document.querySelector(".Contact");
 
 const itemImgMenu = document.querySelector(".img-menu");
