@@ -39,25 +39,25 @@ const clickBtnMenu = () => {
 }
 //Home
 itemHome.addEventListener("mouseover", (e) => {
-    itemImgMenu.src = "./img/foto-1.jpg";
+    itemImgMenu.src = "../img/foto-1.jpg";
 })
 
 //About
 itemAbout.addEventListener("mouseover", (e) => {
-    itemImgMenu.src = "./img/foto-about.jpg";
+    itemImgMenu.src = "../img/foto-about.jpg";
 })
 
 //Service
 itemServices.addEventListener("mouseover", (e) => {
-    itemImgMenu.src = "./img/foto-service.jpg";
+    itemImgMenu.src = "../img/foto-service.jpg";
 })
 
 //Portfolio
 itemPortfolio.addEventListener("mouseover", (e) => {
-    itemImgMenu.src = "./img/foto-portfolio.jpg";
+    itemImgMenu.src = "../img/foto-portfolio.jpg";
 })
 
 //Contact
 itemContact.addEventListener("mouseover", (e) => {
-    itemImgMenu.src = "./img/foto-contacto.jpg";
+    itemImgMenu.src = "../img/foto-contacto.jpg";
 })
