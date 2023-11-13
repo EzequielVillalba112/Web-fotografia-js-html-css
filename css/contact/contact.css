@@ -104,8 +104,40 @@
     letter-spacing: 10px;
 }
 
-@media screen and (max-width:1150px){
-   
+.span-alert{
+    width: 100%;
+    color: #e40a0a;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.alert{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #e40a0a;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.error{
+    background-color: #da3737;
+    border-style: none;
+}
+
+.error::placeholder{
+    color: #D3D3D3;
 }
 
 @media screen and (max-width:770px) {
