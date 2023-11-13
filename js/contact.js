@@ -82,9 +82,6 @@ buttonSendMessage.addEventListener("click", ()=>{
     }
 })
 
-
-
-
 function sendMessage(){
     (function(){
         emailjs.init("Os-XuWVdt39Zoik9k");
